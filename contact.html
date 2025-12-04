@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelWorld - Контакты</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="logo">
+                    <a href="index.html">TravelWorld</a>
+                </div>
+                <ul class="nav-list">
+                    <li><a href="destinations.html">Направления</a></li>
+                    <li><a href="tips.html">Советы</a></li>
+                    <li><a href="gallery.html">Галерея</a></li>
+                    <li><a href="contact.html" class="active">Контакты</a></li>
+                </ul>
+                <button class="menu-toggle" aria-label="Открыть меню">☰</button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="page-content">
+        <div class="container">
+            <h1 class="page-title">Свяжитесь с нами</h1>
+            <p class="page-subtitle">Есть вопросы о путешествиях? Мы с радостью поможем!</p>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h2>Наши контакты</h2>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <h3>Адрес</h3>
+                            <p>ул. Путешественников, 15<br>Москва, Россия</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div>
+                            <h3>Телефон</h3>
+                            <p>+7 (495) 123-45-67</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">✉️</div>
+                        <div>
+                            <h3>Email</h3>
+                            <p>info@travelworld.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">🕒</div>
+                        <div>
+                            <h3>Часы работы</h3>
+                            <p>Пн-Пт: 9:00-18:00<br>Сб: 10:00-16:00<br>Вс: выходной</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <h2>Отправьте нам сообщение</h2>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Ваше имя</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Тема</label>
+                            <select id="subject" name="subject">
+                                <option value="booking">Бронирование тура</option>
+                                <option value="question">Вопрос о направлении</option>
+                                <option value="feedback">Отзыв</option>
+                                <option value="other">Другое</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Сообщение</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn">Отправить сообщение</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="faq-section">
+                <h2>Часто задаваемые вопросы</h2>
+                <div class="faq-item">
+                    <button class="faq-question">Как забронировать тур?</button>
+                    <div class="faq-answer">
+                        <p>Вы можете забронировать тур онлайн через наш сайт, по телефону или посетив наш офис. Для бронирования потребуется предоплата в размере 30% от стоимости тура.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">Нужна ли виза для поездки?</button>
+                    <div class="faq-answer">
+                        <p>Зависит от страны назначения и вашего гражданства. Наши менеджеры помогут вам с информацией о визовых требованиях для выбранного направления.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">Можно ли отменить бронирование?</button>
+                    <div class="faq-answer">
+                        <p>Да, отмена возможна согласно нашим условиям. При отмене за 30 дней до поездки возвращается 100% предоплаты, за 14 дней — 50%, менее чем за 7 дней — возврат не предусмотрен.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 TravelWorld. Все права защищены.</p>
+            <p>Сайт создан в учебных целях</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
