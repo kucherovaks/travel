@@ -1,0 +1,10 @@
+# Файл robots.txt 
+User-agent: *
+Allow: /
+Disallow: /css/
+Disallow: /js/
+Disallow: /images/
+Disallow: /admin/
+
+# Указание на карту сайта (sitemap.xml)
+Sitemap: https://kucherovaks.github.io/travel/sitemap.xml
